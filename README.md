@@ -1,2 +1,2 @@
 # calculator-app
-Calculator App
+Basic frontend only calculator app.
