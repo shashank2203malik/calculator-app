@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <title>Basic Calculator</title>
+</head>
+
+<body>
+    <h1>Time for some basic math!!!</h1>
+    <div class="box">
+        <div class="display">0</div>
+        <div class="calc-buttons">
+            <button type="button" onclick="clearDisplay()">AC</button>
+            <button type="button" onclick="changeDisplay('(')">(</button>
+            <button type="button" onclick="changeDisplay(')')">)</button>
+            <button type="button" onclick="forOperators('/')">&#247;</button>
+            <button type="button" onclick="changeDisplay('7')">7</button>
+            <button type="button" onclick="changeDisplay('8')">8</button>
+            <button type="button" onclick="changeDisplay('9')">9</button>
+            <button class="operator" type="button" onclick="forOperators('*')">&#215;</button>
+            <button type="button" onclick="changeDisplay('4')">4</button>
+            <button type="button" onclick="changeDisplay('5')">5</button>
+            <button type="button" onclick="changeDisplay('6')">6</button>
+            <button class="operator" type="button" onclick="forOperators('-')">-</button>
+            <button type="button" onclick="changeDisplay('1')">1</button>
+            <button type="button" onclick="changeDisplay('2')">2</button>
+            <button type="button" onclick="changeDisplay('3')">3</button>
+            <button type="button" onclick="forOperators('+')">+</button>
+            <button type="button" onclick="changeDisplay('0')">0</button>
+            <button type="button" onclick="changeDisplay('.')">.</button>
+            <button type="button" onclick="clearLastValue()">Delete</button>
+            <button type="button" onclick="result()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>

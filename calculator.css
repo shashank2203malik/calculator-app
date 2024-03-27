@@ -1,0 +1,50 @@
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+body {
+    background: linear-gradient(70deg, blue, pink);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid darkslategray;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.display {
+    text-align: right;
+    font-size: 50px;
+    margin-bottom: 50px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.calc-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+button {
+    height: 75px;
+    width: 140px;
+    border: 1px solid aquamarine;
+    border-radius: 50%;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+button:hover {
+    background-color: bisque;
+}
